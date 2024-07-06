@@ -1,1 +1,46 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: rgb(228, 209, 149);
+  display: flex;
+  justify-content: center;
+}
+#CardHeart {
+  background-color: white;
+  width: 450px;
+  height: 600px;
+  margin-top: 2%;
+  border-radius: 5%;
+  color: black;
+  box-shadow: 10px 10px 10px #cebd72;
+}
+
+#cardStart {
+  height: 200px;
+  font-size: 100px;
+}
+#cardEnd {
+  height: 200px;
+  font-size: 100px;
+}
+
+#Numbercard {
+  font-size: 100px;
+  text-align: center;
+  color: black;
+  height: 200px;
+}
+
+button {
+  width: 50%;
+  box-shadow: 10px 10px 10px #cebd72;
+  border-color: beige;
+  margin: 2px;
+  font-weight: bold;
+}
+
+#button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
