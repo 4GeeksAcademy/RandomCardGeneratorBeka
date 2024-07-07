@@ -16,7 +16,7 @@
   <body>
     <div id="CardHeart">
       <div
-        class="text-start p-3 "
+        class="text-start p-3"
         id="cardStart"
         style="margin-top: -30px;"
       ></div>
@@ -27,6 +27,15 @@
         <button id="timer">Start timer</button>
         <p id="message"></p>
       </div>
+    </div>
+    <div class="text-start p-3 w-25" id="divdimensionForm">
+      <form id="dimensionForm">
+        <label for="width">Width (px):</label>
+        <input type="text" id="width" name="width" value="450" />
+        <label for="height">Height (px):</label>
+        <input type="text" id="height" name="height" value="600" />
+        <button type="submit" id="Update">Update</button>
+      </form>
     </div>
   </body>
 </html>

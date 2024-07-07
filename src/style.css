@@ -1,7 +1,7 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
 
 body {
-  background-color: rgb(228, 209, 149);
+  background-color: rgba(190, 175, 124, 0.664);
   display: flex;
   justify-content: center;
 }
@@ -32,7 +32,7 @@ body {
 }
 
 button {
-  width: 50%;
+  width: 30%;
   box-shadow: 10px 10px 10px #cebd72;
   border-color: beige;
   margin: 2px;
@@ -43,4 +43,25 @@ button {
   width: 100%;
   display: flex;
   justify-content: center;
+}
+label,
+input {
+  display: block;
+}
+
+#divdimensionForm {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#dimensionForm {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+#Update {
+  margin-top: 5%;
 }

@@ -10,7 +10,7 @@ const cardStart = document.getElementById("cardStart");
 const cardEnd = document.getElementById("cardEnd");
 const GenerateRandomCard = document.getElementById("GenerateRandomCard");
 const timer = document.getElementById("timer");
-const UpdateCard = document.getElementById("UpdateCard");
+const dimensionForm = document.getElementById("dimensionForm");
 
 let randomNumber = document.createElement("randomNumber");
 randomNumber.style.fontSize = "150px";
@@ -93,4 +93,16 @@ timer.addEventListener("click", function() {
       randomCardEnd.style.color = "black";
     }
   }, 3000);
+});
+
+document;
+dimensionForm.addEventListener("submit", function(event) {
+  event.preventDefault();
+
+  const width = document.getElementById("width").value;
+  const height = document.getElementById("height").value;
+  const carta = document.getElementById("CardHeart");
+
+  carta.style.width = width + "px";
+  carta.style.height = height + "px";
 });
